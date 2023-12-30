@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@font-face {
+    font-family: 'ff';
+    src: url('fonts/Guthen-Bloots-Basic.woff2');
+}
+@font-face {
+    font-family: 'g';
+    src: url('fonts/Recoleta-SemiBold.woff2');
+}
+@font-face {
+    font-family: 'f';
+    src: url('fonts/test-soehne-buch.woff2');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'f';
+    src: url('fonts/test-soehne-halbfett.woff2');
+    font-weight: 500;
+}
+
+.hwf {
+    font-family: 'ff';
+}
+
+
+.stroke {
+    -webkit-text-stroke: 1px #025464;
+    color: transparent;
+    opacity: 30%;
+}
+.stroke-orange {
+    -webkit-text-stroke: 1px #E57C23;
+    color: transparent;
+    opacity: 60%;
+}
+.recoleta {
+    font-family: 'g';
+}
+.open-sans {
+    font-family: 'f';
+}
+.nbs {
+    font-family: 'Nanum Brush Script';
+}
+
+  
+
+body {
+    font-family: 'g';
+    background-color: #FFF9F2;
+}
+
+
