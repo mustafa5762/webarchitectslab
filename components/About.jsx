@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='px-[3vw] lg:px-[8vw]'>
+    <div className='px-[3vw] lg:px-[8vw] mt-60'>
         <h1 className="text-[#025464] mt-6 text-4xl lg:text-7xl open-sans font-medium">Our <span className="recoleta">passion</span> became <br /> <span className="recoleta">our</span> profession</h1>
         <div className="flex justify-end flex-wrap">
           <div className="flex mr-12">

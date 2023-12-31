@@ -39,7 +39,7 @@ function Projects() {
                                 <img className='rounded-md' src={project.image} alt="" />
                             </div>
                             <div className="mt-5">
-                                <h3 className="text-xl lg:text-3xl text-[#025464]">{project.name}</h3>
+                                <h3 className="text-2xl lg:text-3xl text-[#025464]">{project.name}</h3>
                                 <h4 className="open-sans text-[#025464]">{project.tags}</h4>
                             </div>
                         </div>    
