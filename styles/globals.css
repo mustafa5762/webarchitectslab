@@ -23,6 +23,10 @@
     src: url('fonts/test-soehne-halbfett.woff2');
     font-weight: 500;
 }
+@font-face {
+    font-family: 'fb';
+    src: url('fonts/test-domaine-text-regular.woff2');
+}
 
 .hwf {
     font-family: 'ff';
@@ -48,8 +52,9 @@
 .nbs {
     font-family: 'Nanum Brush Script';
 }
-
-  
+.blf {
+    font-family: 'fb';
+}
 
 body {
     font-family: 'g';

@@ -6,7 +6,7 @@ function Hero() {
     <>
         <div className="web-architects-hero-section flex justify-center mt-20 lg:mt-32 px-20 min-h-screen">
             <div className='w-full text-center'>
-                <h1 className="text-[#3C2A21] text-5xl lg:text-8xl leading-tighter">
+                <h1 className="text-amber-950 text-5xl lg:text-8xl leading-tighter">
                     We Make Creative <br /> Things Everyday
                 </h1>
                 <div className="mt-20 flex justify-end">
