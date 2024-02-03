@@ -28,8 +28,8 @@ const projects = [
 
 function Projects() {
   return (
-    <div className='mt-60 px-[3vw] lg:px-[8vw]'>
-        <h1 className="text-4xl lg:text-7xl text-[#025464] open-sans font-medium">Shall we <span className="recoleta">show</span> you <br /> <span className="recoleta">what</span> we do?</h1>
+    <div className='mt-80 px-[3vw] lg:px-[6vw]'>
+        <h1 className="text-4xl lg:text-7xl text-[#510188] open-sans font-medium">Shall we <span className="recoleta">show</span> you <br /> <span className="recoleta">what</span> we do?</h1>
         <div className="mt-20">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-28">
                 {
@@ -39,8 +39,8 @@ function Projects() {
                                 <img className='rounded-md' src={project.image} alt="" />
                             </div>
                             <div className="mt-5">
-                                <h3 className="text-2xl lg:text-3xl text-[#025464]">{project.name}</h3>
-                                <h4 className="open-sans text-[#025464]">{project.tags}</h4>
+                                <h3 className="text-2xl lg:text-3xl text-[#510188]">{project.name}</h3>
+                                <h4 className="open-sans text-[#510188]">{project.tags}</h4>
                             </div>
                         </div>    
                     )
@@ -49,7 +49,7 @@ function Projects() {
         </div>
 
         <div className="mt-20 flex justify-center relative">
-            <div className="w-16 h-16 border text-[#025464] border-[#025464] rounded-full flex justify-center items-center">
+            <div className="w-16 h-16 border text-[#510188] border-[#510188] rounded-full flex justify-center items-center">
                 <PlusIcon/>
             </div>
             <div className="absolute -bottom-full left-1/3">

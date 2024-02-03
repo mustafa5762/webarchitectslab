@@ -6,7 +6,7 @@ function Page() {
         <div className="p-40">
             <div className="">
                 <div className='max-w-4xl'>
-                    <h1 className="text-amber-950 text-5xl lg:text-6xl leading-tight"> 
+                    <h1 className="text-amber-800 text-5xl lg:text-6xl"> 
                         The Four Stages of Sleep and What They Actually Do
                     </h1>
                     <div className="mt-4">
